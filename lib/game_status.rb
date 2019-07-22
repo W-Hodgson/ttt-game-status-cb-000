@@ -9,6 +9,7 @@ WIN_COMBINATIONS = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
       if(win_combination[0] == "X" && win_combination[1] == "X" && win_combination[2] == "X" || win_combination[0] == "O" && win_combination[1] =="O" && win_combination[2] == "O")
+        puts array
         array
       else
         nil
