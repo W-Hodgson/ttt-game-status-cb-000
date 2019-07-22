@@ -16,5 +16,5 @@ def won?(board)
         return win_combination
       end
   end
-  return nil
+  nil
 end
