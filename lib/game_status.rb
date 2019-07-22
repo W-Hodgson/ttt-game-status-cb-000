@@ -15,7 +15,7 @@ def won?(board)
         puts "O won with position #{win_combination}"
         return win_combination
       else
-        nil
+        return nil
       end
   end
 end
