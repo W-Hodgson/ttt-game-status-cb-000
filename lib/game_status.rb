@@ -11,10 +11,11 @@ def won?(board)
       if board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X"
         puts "X won with position #{win_combination}"
         return win_combination
-      else board[win_combination[0]] == "O" && board[win_combination[1]] =="O" && board[win_combination[2]] == "O"
+      elsif board[win_combination[0]] == "O" && board[win_combination[1]] =="O" && board[win_combination[2]] == "O"
         puts "O won with position #{win_combination}"
         return win_combination
+      else
+        nil
       end
   end
-  nil
 end
