@@ -12,7 +12,8 @@ def won?(board)
         puts "X won with position #{win_combination}}"
         win_combination
       elsif win_combination[0] == "O" && win_combination[1] =="O" && win_combination[2] == "O"
-        nil
+        puts "O won with position #{win_combination}}"
+        win_combination
       else
         nil
       end
